@@ -1,14 +1,9 @@
-<html><head><meta content="text/html;charset=utf-8" http-equiv="Content-Type"/><style>#text {
-        height:100%;
-        width: 50%;
-      }
-      #canvas {
+<html><head><meta content="text/html;charset=utf-8" http-equiv="Content-Type"/><style>#canvas {
         position: absolute;
-        top: 10px;
-        right:10px;
-      }
-      #result {
-        position: absolute;
-        bottom: 0;
+        overflow: hidden;
         right: 0;
-      }</style><script defer="defer" src="index.js"></script></head><body><div id="text"></div><canvas id="canvas" height="800" width="800"></canvas><pre id="result"></pre></body></html>
+        top: 0;
+      }
+      .content {
+        overflow: hidden !important;
+      }</style><script defer="defer" src="index.js"></script></head><body><div id="main"></div></body></html>
